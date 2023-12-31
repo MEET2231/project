@@ -142,24 +142,27 @@
     font-size: larger;
     cursor: pointer;
 }
-
-.btn-sm{
-    margin: 10px 9px 5px;
-    padding: 9px;
-    border-radius: 24px;
-    color: black;
-    background-color: rgb(157, 204, 243);
-    font-size: small;
-    cursor: pointer;
+#thing1{
+    background-color: bisque;
+    font-family: 'Source Code Pro';
+    font-size: medium;
 
 }
-.btn-sm:hover{
-    margin: 10px 9px 5px;
-    padding: 9px;
-    border-radius: 24px;
-    color: rgb(157, 204, 243);
-    background-color: black;
-    font-size: small;
+#thing2{
+    background-color: brown;
+    font-family: 'Source Code Pro';
+    font-size: medium;
+}
+.heading{
+    background-color: yellowgreen;
+}
+.btn-sm{
+    margin: 34px 9px 5px;
+    padding: 12px;
+    border-radius: 35px;
+    color: black;
+    background-color: rgb(157, 204, 243);
+    font-size: larger;
     cursor: pointer;
 
 }

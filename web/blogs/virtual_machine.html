@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>
+        Alienegg - Egg developer, Egg eatre, Egg smassher
+    </title>
+    <link rel="stylesheet" href="style_blog.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+          <nav>
+              <ul>
+                  <li><a href="/">Home</a></li>
+                  <li> <a href="/Intro.html">Intro</a></li>
+                  <li><a href="/Services.html">Services</a></li>
+                  <li><a href="/Blog.html">Blog</a></li>
+                  <li><a href="/contact.html">Contact</a></li>
+              </ul>
+          </nav>
+        </div>
+      <div class="main">
+        <div class="blogcontainer">
+          <h1>~Blogs by Alienegg the alien!</h1>
+          <div class="blog-item" >
+            <h2 class="heading">Learn about virtual machines!!!</h2>
+
+            <div id="thing1">
+
+Virtual Machines
+<p>
+From floor zero, a virtual machine is basically a sandboxed environment that can run as
+software in an OS. The virtual machine shares all the resources from the OS but anything
+happening in a virtual machine is completely devoid of the actual operating system.
+Virtual machines can be classified into two types:</p>
+<p>
+System Virtual Machine SVM
+Process virtual Machine PVM</p>
+<p>
+SVM(system virtual machine)
+A system virtual machine is a type of VM where we run a system over a preexisting
+operating system this kind of virtualization is made possible with the help of hypervisors. A
+type-2 hypervisor helps us to override a new virtual machine on an OS by virtually sharing the
+hosts resources, such as memory and processing. While a type-1 hypervisor is directly installed
+on the hardware over which we can set up as many virtual machines as we want.
+PVM(process virtual machine)</p>
+<p>
+A process virtual machine allows a single process to run as an applictaion on the host
+computer providing a platform-independent programming environment. By masking information
+2
+Of underlying hardware or operating system. Process virtual machines are implemented using an
+interpreter.</p>
+<p>
+Lets take the example of a Python virtual machine:
+A Python interpreter is comprised of a compiler and a virtual machine. The compiler takes the
+raw code and then generates a byte code the bytecode which is a low-level representation of
+source code is given to a virtual machine that generates a machine code, thereby generalizing the
+specifications and making Python a platform-independent language.
+The PVM interprets and executes the bytecode, and the PVM itself interacts with the host
+machine's CPU to carry out the instructions. The key point is that the VM acts as an intermediary
+between the high-level code and the host machine's CPU. It translates or interprets the code into
+machine code, allowing the CPU to execute the program. The specifics of how this translation
+occurs depend on the design of the VM and the language it supports.</p>
+<p>
+3
+Different VMs, such as those for Java (JVM), Python (PVM), or the Common Language
+Runtime (CLR) in the case of .NET languages, have their own approaches to bytecode execution
+and machine code generation. They abstract away the underlying hardware details, providing a
+level of portability for programs written in these languages across different platforms.
+The bytecode generated can be given to any machine having a PVM and the program will work
+perfectly. In contrast with C, we cannot run a.exe on Linux just by changing the extension to
+a.out.</p>
+<p>
+Interaction between (PVM) and host OS:
+In the case of dynamic languages like Python, the VM is responsible for handling dynamic
+typing, memory management, and other runtime aspects. It interacts with the host machine's
+operating system for tasks like memory allocation and file I/O.The PVM often relies on system
+calls provided by the host operating system for tasks like file I/O, network communication, and
+memory management. These system calls act as interfaces between the PVM and the underlying
+hardware.</p>
+<p>
+The host OS is responsible for managing system resources, and the PVM relies on the OS for
+tasks such as memory allocation and process scheduling. If the host OS imposes restrictions or
+has resource limitations, it can affect the performance and behaviour of the PVM.
+</p>
+</div>
+<a href="../Blog.html"><button class="btn-sm">return to blog page</button></a>
+
+
+
+
+
+          </div>
+                  
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>
